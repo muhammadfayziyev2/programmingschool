@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 .header {
     border: 1px solid black;
     width: 100%;
     height: 100px;
+=======
+.header{
+  background-color: red;
+  width: 100%;
+  height: 200px;
+>>>>>>> 07059e3571df2262cb4f9182754b4e3b85be7411
 }

@@ -4,6 +4,7 @@ import React from 'react'
 
 const Header = () => {
   return (
+<<<<<<< HEAD
     <div>
       <div className="header">
         <div className="header_contaner">
@@ -13,6 +14,9 @@ const Header = () => {
         </div>
       </div>
     </div>
+=======
+    <div className='header'>Header</div>
+>>>>>>> 07059e3571df2262cb4f9182754b4e3b85be7411
   )
 }
 
