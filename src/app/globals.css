@@ -5,10 +5,21 @@
 }
 
 .header {
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   /* border: 1px solid black; */
   width: 100%;
+=======
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 90px;
+}
+.header_img{
+  width: 180px;
+>>>>>>> c70eac7025c2cf7be5811a86a1ec28a4161e8665
   height: 90px;
   margin-top: 30px;
 }
@@ -20,14 +31,23 @@
   font-size: 18px;
 }
 .header_contaner {
+<<<<<<< HEAD
   display: flex;
   align-items: center;
   justify-content: space-between;
   /* border: 1px solid blue; */
   width: 90%;
+=======
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    width: 85%;
+>>>>>>> c70eac7025c2cf7be5811a86a1ec28a4161e8665
 }
 
 .header_unit1 {
+<<<<<<< HEAD
   list-style: none;
   display: flex;
   gap: 40px;
@@ -136,3 +156,71 @@ ul {
 .example-2 .icon-content a[data-social="youtube"]~.tooltip {
   background-color: #ff0000;
 }
+=======
+      list-style: none;
+display: flex;
+gap : 40px;
+}
+
+/* ANIMATSIYA KEYFRAMES */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* BOR CSSLARGA FAQAT ANIMATSIYA QO‘SHILDI */
+.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+}
+
+.main_img {
+  width: 470px;
+  animation: slideInRight 1.5s ease forwards;
+}
+
+.main_contaner {
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  height: 100%;
+  display: flex;
+}
+
+.main_h1 {
+  font-size: 62px;
+  width: 550px;
+  font-weight: 700;
+}
+
+.main_p {
+  color: rgb(76, 74, 74);
+  font-size: 18px;
+  font-weight: 760;
+  width: 450px;
+}
+
+.main_us {
+  padding-bottom: 50px;
+  animation: slideInLeft 1.5s ease forwards;
+}
+>>>>>>> c70eac7025c2cf7be5811a86a1ec28a4161e8665
