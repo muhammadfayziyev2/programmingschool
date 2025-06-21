@@ -3,22 +3,44 @@ import React from 'react'
 const AboutUs = () => {
   return (
     <div>
-          <div className="parent">
-              <div className="card">
-                  <div className="content-box">
-                  
-                      <img src="IMG_20250414_112944_658 (3).jpg" alt="" className="card-title" />
-                      <p className="card-content">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      </p>
-                      <span className="see-more">See More</span>
-                  </div>
-                  <div className="date-box">
-                      <span className="month">JUNE</span>
-                      <span className="date">29</span>
-                  </div>
-              </div>
-          </div>
+  <div class="container">
+    <div className="cards">
+    <div class="card">
+      <img src="https://i.pravatar.cc/100?img=1" alt="person" class="avatar" />
+      <h3>Ronald Richards</h3>
+      <p>
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+      <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+    </div>
+
+    <div class="card">
+      <img src="https://i.pravatar.cc/100?img=2" alt="person" class="avatar" />
+      <h3>Wade Warren</h3>
+      <p>
+        Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Reprehenderit in voluptate velit esse.
+      </p>
+      <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+    </div>
+
+    <div class="card">
+      <img src="https://i.pravatar.cc/100?img=3" alt="person" class="avatar" />
+      <h3>Jacob Jones</h3>
+      <p>
+        Esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit.
+      </p>
+      <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐ </div>
+    </div>
+      <div class="card">
+      <img src="https://i.pravatar.cc/100?img=3" alt="person" class="avatar" />
+      <h3>Jacob Jones</h3>
+      <p>
+        Esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit.
+      </p>
+      <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐ </div>
+    </div>
+    </div>
+  </div>
     </div>
   )
 }
