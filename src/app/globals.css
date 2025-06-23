@@ -359,6 +359,7 @@ p {
   font-size: 16px;
 }
 
+
 @-webkit-keyframes focus-in-contract {
   0% {
     letter-spacing: 1em;
@@ -622,6 +623,7 @@ p {
   font-size: 20px;
 }
 
+
 .kurslar{
   width: 100%;
   display: flex;
@@ -636,3 +638,61 @@ p {
   justify-content: center;
   color: #24262a;
 }
+
+
+
+
+
+
+
+.about-container {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  /* background: #1e1e2f; */
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  height: 320px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  
+
+  /* Animatsiya uchun */
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
