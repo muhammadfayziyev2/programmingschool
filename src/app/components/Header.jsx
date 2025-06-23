@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import React from 'react'
 
 const Header = () => {
@@ -11,9 +12,9 @@ const Header = () => {
                 </div>
                 <div className="header_units">
                     <ul className='header_unit1'>
-                        <li className='header_unit2'>Bosh sahifa</li>
-                        <li className='header_unit2'>Biz haqimizda</li>
-                        <li className='header_unit2'>Yaratuvchilar</li>
+                        <Link href='/' className='header_unit2'>Bosh sahifa</Link>
+                        <Link href='/about' className='header_unit2'>Biz haqimizda</Link>
+                        <Link href='/creators' className='header_unit2'>Yaratuvchilar</Link>
                     </ul>
                 </div>
                 <div className="header_media">
