@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   font-family: Rowdies;
@@ -16,11 +16,13 @@
 .img-header {
   width: 250px;
 }
-.header_unit2{
+
+.header_unit2 {
   font-size: 18px;
   color: rgb(76, 74, 74);
- text-decoration: none;
+  text-decoration: none;
 }
+
 /* Parent ul animatsiyasi */
 .header_unit1 {
   list-style: none;
@@ -52,6 +54,7 @@
 .header_unit2:nth-child(3) {
   animation-delay: 0.8s;
 }
+
 .header_unit1 {
   list-style: none;
   padding: 0;
@@ -87,9 +90,11 @@
 .header_unit2:hover::after {
   width: 100%;
 }
-.header_unit2:hover{
+
+.header_unit2:hover {
   color: #FFCC29;
 }
+
 @keyframes fadeSlideIn {
   to {
     opacity: 1;
@@ -117,6 +122,7 @@
   display: flex;
   gap: 40px;
 }
+
 ul {
   list-style: none;
 }
@@ -221,6 +227,7 @@ ul {
 .example-2 .icon-content a[data-social="youtube"]~.tooltip {
   background-color: #ff0000;
 }
+
 /* ANIMATSIYA KEYFRAMES */
 @keyframes slideInLeft {
   from {
@@ -294,22 +301,24 @@ ul {
   box-sizing: border-box;
 }
 
-
-
 .container {
-    align-items: center;
+  align-items: center;
   display: flex;
   justify-content: center;
-  /* gap: 20px; */
+  flex-direction: column;
   width: 100%;
   height: 400px;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
+
 .cards {
-    justify-content: space-between;
-    display: flex;
-    width: 85%;
+  justify-content: space-between;
+  display: flex;
+  width: 85%;
+  margin-top: 40px;
 }
+
 
 .card {
   background: #fff;
@@ -317,7 +326,7 @@ ul {
   padding: 10px;
   height: 270px;
   width: 300px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -396,9 +405,11 @@ p {
   /* Oq fon */
   flex-wrap: wrap;
 }
-.team-p{
+
+.team-p {
   font-size: 24px;
 }
+
 .team-card {
   background-color: #f9f9f9;
   /* Yorqin kulrang karta */
@@ -411,7 +422,9 @@ p {
   /* Matn rangi qora */
   transition: transform 0.3s ease;
 }
-
+.teache{
+  color: #24262a;
+}
 .team-card:hover {
   transform: translateY(-5px);
 }
@@ -453,11 +466,13 @@ p {
 .social-icons a:hover {
   color: #000;
 }
-.home-difrector{
+
+.home-difrector {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; 
+  justify-content: center;
 }
+
 .director-card {
   max-width: 700px;
   margin: 40px 10px;
@@ -485,19 +500,23 @@ p {
     transform: translateY(0);
   }
 }
-.aboutUs{
+
+.aboutUs {
   display: flex;
   justify-content: center;
   margin-top: 30px;
 }
+
 .director-card:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   transform: translateY(-4px);
   transition: all 0.3s ease;
 }
-.name-director{
-  color: #FFCC29;
+
+.name-director {
+  color: #0033A0;
 }
+
 .director-image {
   width: 200px;
   height: 200px;
@@ -519,7 +538,6 @@ p {
 .director-info h2 {
   font-size: 1.8rem;
   margin-bottom: 8px;
-  color: #222;
 }
 
 .director-info .title {
@@ -599,6 +617,22 @@ p {
     transform: translateX(-50%);
   }
 }
-.tech-name{
+
+.tech-name {
   font-size: 20px;
+}
+
+.kurslar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+}
+.kurs2{
+  width: 85%;
+}
+.name-kurses{
+  display: flex;
+  justify-content: center;
+  color: #24262a;
 }

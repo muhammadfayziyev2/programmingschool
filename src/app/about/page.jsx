@@ -26,7 +26,7 @@ const page = () => {
         <div className="director-card">
           <img src="IMG_20250414_112944_658 (3).jpg" alt="Director" className="director-image" />
           <div className="director-info">
-            <h2>Muhammadjon</h2>
+            <h2 className='name-director'>Muhammadjon</h2>
             <p className="title">Direktor, UKAM O‘quv Markazi</p>
             <p className="bio">
               10+ yillik tajribaga ega, ta’lim tizimida zamonaviy yondashuvlarni olib kirgan
