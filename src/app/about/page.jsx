@@ -32,7 +32,6 @@ const page = () => {
               10+ yillik tajribaga ega, ta’lim tizimida zamonaviy yondashuvlarni olib kirgan
               fidoyi rahbar. O‘quvchilarning yutuqlari — uning ustuvor maqsadi.
             </p>
-
           </div>
         </div>
       </div>

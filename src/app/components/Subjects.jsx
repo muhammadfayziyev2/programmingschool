@@ -19,7 +19,7 @@ const techIcons = [
     { name: "Node.js", icon: <SiNodedotjs color="#339933" /> },
     { name: "TypeScript", icon: <SiTypescript color="#007acc" /> },
     { name: "HTML5", icon: <SiHtml5 color="#e34f26" /> },
-    { name: "CSS3", icon: <SiCss3 color="#1572b6" /> },
+    { name: "CSS", icon: <SiCss3 color="#1572b6" /> },
     { name: "SASS", icon: <SiSass color="#cc6699" /> },
     { name: "Git", icon: <SiGit color="#f05032" /> },
 ];

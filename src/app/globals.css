@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   font-family: Rowdies;
@@ -16,12 +16,17 @@
 .img-header {
   width: 250px;
 }
-.header_unit2{
+
+.header_unit2 {
   font-size: 18px;
-  color: rgb(76, 74, 74);
- text-decoration: none;
+ 
+
+  font-weight: 400;
+  opacity: 0;
+    transform: translateY(-10px);
+    animation: itemFadeIn 0.4s ease-out forwards;
 }
-/* Parent ul animatsiyasi */
+
 .header_unit1 {
   list-style: none;
   padding: 0;
@@ -32,13 +37,7 @@
   transform: translateY(-20px);
   animation: fadeSlideIn 0.5s ease-out forwards;
   animation-delay: 0.2s;
-}
 
-/* Har bir li element uchun kirish animatsiyasi */
-.header_unit2 {
-  opacity: 0;
-  transform: translateY(-10px);
-  animation: itemFadeIn 0.4s ease-out forwards;
 }
 
 .header_unit2:nth-child(1) {
@@ -52,6 +51,7 @@
 .header_unit2:nth-child(3) {
   animation-delay: 0.8s;
 }
+
 .header_unit1 {
   list-style: none;
   padding: 0;
@@ -63,13 +63,14 @@
 .header_unit2 {
   position: relative;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   cursor: pointer;
   padding-bottom: 5px;
   transition: all 0.3s ease-in-out;
+  color: rgb(76, 74, 74);
+  text-decoration: none;
 }
 
-/* Pastki chiziq */
 .header_unit2::after {
   content: '';
   position: absolute;
@@ -83,13 +84,14 @@
   transform: translateX(-50%);
 }
 
-/* Hoverda chiziq ikki tomonga kengayadi */
 .header_unit2:hover::after {
   width: 100%;
 }
-.header_unit2:hover{
+
+.header_unit2:hover {
   color: #FFCC29;
 }
+
 @keyframes fadeSlideIn {
   to {
     opacity: 1;
@@ -108,7 +110,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid blue; */
   width: 90%;
 }
 
@@ -117,6 +118,7 @@
   display: flex;
   gap: 40px;
 }
+
 ul {
   list-style: none;
 }
@@ -221,6 +223,7 @@ ul {
 .example-2 .icon-content a[data-social="youtube"]~.tooltip {
   background-color: #ff0000;
 }
+
 /* ANIMATSIYA KEYFRAMES */
 @keyframes slideInLeft {
   from {
@@ -246,7 +249,6 @@ ul {
   }
 }
 
-/* BOR CSSLARGA FAQAT ANIMATSIYA QO‘SHILDI */
 .main {
   display: flex;
   justify-content: center;
@@ -279,7 +281,7 @@ ul {
   font-size: 18px;
   font-weight: 760;
   width: 450px;
-  font-weight: 500;
+  font-weight: 300;
   margin-top: 10px;
 }
 
@@ -297,7 +299,7 @@ ul {
 
 
 .container {
-    align-items: center;
+  align-items: center;
   display: flex;
   justify-content: center;
   /* gap: 20px; */
@@ -305,10 +307,11 @@ ul {
   height: 400px;
   flex-wrap: wrap;
 }
+
 .cards {
-    justify-content: space-between;
-    display: flex;
-    width: 85%;
+  justify-content: space-between;
+  display: flex;
+  width: 85%;
 }
 
 .card {
@@ -317,7 +320,7 @@ ul {
   padding: 10px;
   height: 270px;
   width: 300px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -397,9 +400,11 @@ p {
   /* Oq fon */
   flex-wrap: wrap;
 }
-.team-p{
+
+.team-p {
   font-size: 24px;
 }
+
 .team-card {
   background-color: #f9f9f9;
   /* Yorqin kulrang karta */
@@ -433,6 +438,13 @@ p {
   color: #111;
 }
 
+.teachers {
+  display: flex;
+  justify-content: center;
+  color: #24262a;
+  margin-top: 50px;
+}
+
 .team-info p {
   font-size: 0.9rem;
   color: #666;
@@ -454,11 +466,13 @@ p {
 .social-icons a:hover {
   color: #000;
 }
-.home-difrector{
+
+.home-difrector {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; 
+  justify-content: center;
 }
+
 .director-card {
   max-width: 700px;
   margin: 40px 10px;
@@ -486,19 +500,19 @@ p {
     transform: translateY(0);
   }
 }
-.aboutUs{
+
+.aboutUs {
   display: flex;
   justify-content: center;
   margin-top: 30px;
 }
+
 .director-card:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   transform: translateY(-4px);
   transition: all 0.3s ease;
 }
-.name-director{
-  color: #FFCC29;
-}
+
 .director-image {
   width: 200px;
   height: 200px;
@@ -520,7 +534,7 @@ p {
 .director-info h2 {
   font-size: 1.8rem;
   margin-bottom: 8px;
-  color: #222;
+  color: #0033A0;
 }
 
 .director-info .title {
@@ -600,15 +614,10 @@ p {
     transform: translateX(-50%);
   }
 }
-.tech-name{
+
+.tech-name {
   font-size: 20px;
 }
-
-
-
-
-
-
 
 .about-container {
   height: 400px;
@@ -625,15 +634,12 @@ p {
 }
 
 .card {
-  /* background: #1e1e2f; */
   padding: 20px;
   border-radius: 12px;
   width: 300px;
   height: 320px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 
-  /* Animatsiya uchun */
   opacity: 0;
   transform: translateY(60px);
   transition: opacity 0.5s ease, transform 0.5s ease;
@@ -661,6 +667,124 @@ p {
   line-height: 1.5;
 }
 
+.name-kurses {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: #24262a;
+}
+
+.course-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.course-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 25px;
+  border-radius: 12px;
+  color: #fff;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.course-icon {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.course-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.course-desc {
+  margin: 4px 0 0;
+  font-size: 14px;
+}
+
+.site-footer {
+  background-color: #ffffff;
+  /* Oq fon */
+  color: #333;
+  /* Matn rangi */
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 
+.footer-links {
+  display: flex;
+  gap: 20px;
+    
+}
+.footer-link{
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: 300;
+  color: #555;
+}
 
+.footer-link:hover {
+  color: #FFCC29;
+}
+
+.footer-social a {
+  color: #555;
+  font-size: 20px;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #000;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #777;
+}
+
+.school-name{
+  color: #0033A0;
+}

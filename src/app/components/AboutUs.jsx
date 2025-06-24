@@ -42,7 +42,7 @@ const AboutUs = () => {
         });
       },
       {
-        threshold: 0.2, // Kartaning 20% ko‘rinsa yetarli
+        threshold: 0.2, 
       }
     );
 
@@ -58,21 +58,23 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <div className="about-container">
-      <div className="cards">
-        {feedbacks.map((item, index) => (
-          <div
-            key={index}
-            ref={(el) => (cardsRef.current[index] = el)}
-            className="card"
-            style={{ transitionDelay: `${index * 0.2}s` }}
-          >
-            <img src={item.img} alt={item.name} className="avatar" />
-            <h3>{item.name}</h3>
-            <p>{item.text}</p>
-            
-          </div>
-        ))}
+    <div>
+      <h1 className="teachers">O'qituvchilar</h1>
+      <div className="about-container">
+        <div className="cards">
+          {feedbacks.map((item, index) => (
+            <div
+              key={index}
+              ref={(el) => (cardsRef.current[index] = el)}
+              className="card"
+              style={{ transitionDelay: `${index * 0.2}s` }}
+            >
+              <img src={item.img} alt={item.name} className="avatar" />
+              <h3>{item.name}</h3>
+              <p>{item.text}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

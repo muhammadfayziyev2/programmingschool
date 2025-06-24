@@ -6,6 +6,7 @@ import MainPage from './MainPage'
 import AboutUs from './AboutUs'
 import Subjects from './Subjects'
 import Kourse from './Kourse'
+import Footer from './Footer'
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
         <Subjects/>
         <AboutUs/>
         <Kourse/>
+        <Footer/>
     </div>
   )
 }

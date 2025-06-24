@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 
 const Header = () => {
-    return (
+    return ( 
         <div className="header">
             <div className="header_contaner">
                 <div className="logo_name">
