@@ -12,7 +12,8 @@ const MainPage = () => {
           <p className='main_p'>Kelajagingiz uchun bugun harakatni boshlang.
             O‘zingizga mos kursni tanlang va o‘qishni boshlang.
             Bizda tajribali o‘qituvchilar va qulay sharoitlar mavjud.
-          </p></div>
+          </p>
+        </div>
         <div className="main_img">
           <img src="main_img2.png" alt="" className='main_img' />
         </div>

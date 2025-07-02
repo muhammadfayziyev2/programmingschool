@@ -6,10 +6,10 @@ import Header from '../components/Header'
 const page = () => {
   return (
     <div>
-      <Header/>
-     <div className='aboutUs'>
+      <Header />
+      <div className='aboutUs'>
         <h1>Asoschilar</h1>
-     </div>
+      </div>
       <div className='home-difrector'>
         <div className="director-card">
           <img src="IMG_20250414_112944_658 (3).jpg" alt="Director" className="director-image" />
@@ -20,7 +20,6 @@ const page = () => {
               10+ yillik tajribaga ega, ta’lim tizimida zamonaviy yondashuvlarni olib kirgan
               fidoyi rahbar. O‘quvchilarning yutuqlari — uning ustuvor maqsadi.
             </p>
-
           </div>
         </div>
         <div className="director-card">

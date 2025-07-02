@@ -1,0 +1,70 @@
+
+@media(max-width:1036px) {
+    .icon_overlay {
+        display: flex;
+    }
+
+    .header_unit1 {
+        display: none;
+    }
+}
+
+@media(max-width:580px) {
+    .header_media {
+        display: none;
+    }
+
+    .img-header {
+        margin-left: -30px;
+    }
+}
+
+
+@media(max-width:1190px) {
+    .main_img {
+        display: none;
+    }
+}
+
+@media(max-width:570px) {
+    .main_h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:450px) {
+    .slider-container {
+        margin-top: -40px;
+    }
+}
+
+@media(max-width:460px) {
+    .teachers {
+        font-size: 28px;
+    }
+
+    .name-kurses {
+        font-size: 28px;
+    }
+}
+
+@media(max-width:530px) {
+    .footer-content {
+        justify-content: center;
+    }
+}
+
+
+@media(max-width:460px) {
+    .name-director,
+    .title,
+    .bio {
+        text-align: center;
+    }
+    .director-image{
+        margin: 0 auto;
+    }
+    .home-difrector{
+        gap: 0px;
+    }
+}

@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono, Rowdies } from "next/font/google";
 import "./globals.css";
+import "./media.css"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/x-icon" href="logo 2+.jpg" className="header_img_link"></link>
+        <link rel="icon" type="image/x-icon" href="logopro.jpg" className="header_img_link"></link>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${rowdies} antialiased`}
