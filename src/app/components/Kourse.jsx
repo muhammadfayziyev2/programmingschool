@@ -2,46 +2,111 @@
 
 import React from 'react'
 
-import {
-    FaLaptopCode,
-    FaLanguage,
-    FaBalanceScale,
-    FaCalculator,
-    FaChartLine,
-    FaSuperscript,
-    FaGlasses
-} from "react-icons/fa";
-import { SiAltiumdesigner } from "react-icons/si";
-import { RiEnglishInput } from "react-icons/ri";
-import { MdLanguage } from "react-icons/md";
-import { FaComputer } from "react-icons/fa6";
-
-const courses = [
-    { title: "Kompyuter savodhonligi", desc: "Dive into our dynamic Community Hub", color: "#e74c3c", icon: <FaLaptopCode /> },
-    { title: "Grafik dizayn", desc: "Dive into our dynamic Community Hub", color: "#2980b9", icon: <SiAltiumdesigner /> },
-    { title: "Ingliz tili", desc: "Dive into our dynamic Community Hub", color: "#f39c12", icon: <RiEnglishInput /> },
-    { title: "Rus tili", desc: "Dive into our dynamic Community Hub", color: "#e67e22", icon: <MdLanguage /> },
-    { title: "Nemis tili", desc: "Dive into our dynamic Community Hub", color: "#3498db", icon: <MdLanguage /> },
-    { title: "Front-end", desc: "Dive into our dynamic Community Hub", color: "#2ecc71", icon: <FaComputer /> },
-    { title: "Back-end", desc: "Dive into our dynamic Community Hub", color: "#c0392b", icon: <FaComputer /> },
-  ];
-
 const Kourse = () => {
     return (
-        <div className='kurslar'>
-            <div className='kurs2'>
-                <h1 className='name-kurses'>Kurslar</h1>
-            </div>
-            <div className="course-grid">
-                {courses.map((course, index) => (
-                    <div className="course-card" key={index} style={{ backgroundColor: course.color }}>
-                        <div className="course-icon">{course.icon}</div>
-                        <div className="course-info">
-                            <h3 className="course-title">{course.title}</h3>
-                            <p className="course-desc">{course.desc}</p>
+        <div>
+            <h1 className="teachers">Kurslar</h1>
+            <div className='kourse'>
+                <div className='cards-courses'>
+                    <div className="e-card playing">
+                        <div className="image" />
+                        <div className="wave" />
+                        <div className="wave" />
+                        <div className="wave" />
+                        <div className="infotop">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="icon">
+                                <path fill="currentColor" d="M19.4133 4.89862L14.5863 2.17544C12.9911 1.27485 11.0089 1.27485 9.41368 2.17544L4.58674
+        4.89862C2.99153 5.7992 2 7.47596 2 9.2763V14.7235C2 16.5238 2.99153 18.2014 4.58674 19.1012L9.41368
+        21.8252C10.2079 22.2734 11.105 22.5 12.0046 22.5C12.6952 22.5 13.3874 22.3657 14.0349 22.0954C14.2204
+        22.018 14.4059 21.9273 14.5872 21.8252L19.4141 19.1012C19.9765 18.7831 20.4655 18.3728 20.8651
+        17.8825C21.597 16.9894 22 15.8671 22 14.7243V9.27713C22 7.47678 21.0085 5.7992 19.4133 4.89862ZM4.10784
+        14.7235V9.2763C4.10784 8.20928 4.6955 7.21559 5.64066 6.68166L10.4676 3.95848C10.9398 3.69152 11.4701
+        3.55804 11.9996 3.55804C12.5291 3.55804 13.0594 3.69152 13.5324 3.95848L18.3593 6.68166C19.3045 7.21476
+        19.8922 8.20928 19.8922 9.2763V9.75997C19.1426 9.60836 18.377 9.53091 17.6022 9.53091C14.7929 9.53091
+        12.1041 10.5501 10.0309 12.3999C8.36735 13.8847 7.21142 15.8012 6.68783 17.9081L5.63981 17.3165C4.69466
+        16.7834 4.10699 15.7897 4.10699 14.7235H4.10784ZM10.4676 20.0413L8.60933 18.9924C8.94996 17.0479 9.94402
+        15.2665 11.4515 13.921C13.1353 12.4181 15.3198 11.5908 17.6022 11.5908C18.3804 11.5908 19.1477 11.6864
+        19.8922 11.8742V14.7235C19.8922 15.2278 19.7589 15.7254 19.5119 16.1662C18.7615 15.3596 17.6806 14.8528
+         16.4783 14.8528C14.2136 14.8528 12.3781 16.6466 12.3781 18.8598C12.3781 19.3937 12.4861 19.9021 12.68
+         20.3676C11.9347 20.5316 11.1396 20.4203 10.4684 20.0413H10.4676Z" /></svg><br />
+                            UI / EX Designer
+                            <br />
+                            <div className="name">MikeAndrewDesigner</div>
                         </div>
                     </div>
-                ))}
+                    <div className="e-card playing">
+                        <div className="image" />
+                        <div className="wave2" />
+                        <div className="wave2" />
+                        <div className="wave2" />
+                        <div className="infotop">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="icon" viewBox="0 0 576 512"><path fill="#ffffff" d="M64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l176 0-10.7 32L160 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l256 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-69.3 0L336 416l176 0c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0zM512 64l0 224L64 288 64 64l448 0z" /></svg><br />
+                            Kompyuter savodhonligi
+                            <br />
+                            <div className="name">MikeAndrewDesigner</div>
+                        </div>
+                    </div>
+                    <div className="e-card playing">
+                        <div className="image" />
+                        <div className="wave3" />
+                        <div className="wave3" />
+                        <div className="wave3" />
+                        <div className="infotop">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="icon" viewBox="0 0 640 512"><path fill="#ffffff" d="M0 128C0 92.7 28.7 64 64 64l192 0 48 0 16 0 256 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64l-256 0-16 0-48 0L64 448c-35.3 0-64-28.7-64-64L0 128zm320 0l0 256 256 0 0-256-256 0zM178.3 175.9c-3.2-7.2-10.4-11.9-18.3-11.9s-15.1 4.7-18.3 11.9l-64 144c-4.5 10.1 .1 21.9 10.2 26.4s21.9-.1 26.4-10.2l8.9-20.1 73.6 0 8.9 20.1c4.5 10.1 16.3 14.6 26.4 10.2s14.6-16.3 10.2-26.4l-64-144zM160 233.2L179 276l-38 0 19-42.8zM448 164c11 0 20 9 20 20l0 4 44 0 16 0c11 0 20 9 20 20s-9 20-20 20l-2 0-1.6 4.5c-8.9 24.4-22.4 46.6-39.6 65.4c.9 .6 1.8 1.1 2.7 1.6l18.9 11.3c9.5 5.7 12.5 18 6.9 27.4s-18 12.5-27.4 6.9l-18.9-11.3c-4.5-2.7-8.8-5.5-13.1-8.5c-10.6 7.5-21.9 14-34 19.4l-3.6 1.6c-10.1 4.5-21.9-.1-26.4-10.2s.1-21.9 10.2-26.4l3.6-1.6c6.4-2.9 12.6-6.1 18.5-9.8l-12.2-12.2c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0l14.6 14.6 .5 .5c12.4-13.1 22.5-28.3 29.8-45L448 228l-72 0c-11 0-20-9-20-20s9-20 20-20l52 0 0-4c0-11 9-20 20-20z" /></svg><br />
+                            Ingliz tili
+                            <br />
+                            <div className="name">MikeAndrewDesigner</div>
+                        </div>
+                    </div>
+                    <div className="e-card playing">
+                        <div className="image" />
+                        <div className="wave4" />
+                        <div className="wave4" />
+                        <div className="wave4" />
+                        <div className="infotop">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="icon" viewBox="0 0 512 512"><path fill="#ffffff" d="M51.7 295.1l31.7 6.3c7.9 1.6 16-.9 21.7-6.6l15.4-15.4c11.6-11.6 31.1-8.4 38.4 6.2l9.3 18.5c4.8 9.6 14.6 15.7 25.4 15.7c15.2 0 26.1-14.6 21.7-29.2l-6-19.9c-4.6-15.4 6.9-30.9 23-30.9l2.3 0c13.4 0 25.9-6.7 33.3-17.8l10.7-16.1c5.6-8.5 5.3-19.6-.8-27.7l-16.1-21.5c-10.3-13.7-3.3-33.5 13.4-37.7l17-4.3c7.5-1.9 13.6-7.2 16.5-14.4l16.4-40.9C303.4 52.1 280.2 48 256 48C141.1 48 48 141.1 48 256c0 13.4 1.3 26.5 3.7 39.1zm407.7 4.6c-3-.3-6-.1-9 .8l-15.8 4.4c-6.7 1.9-13.8-.9-17.5-6.7l-2-3.1c-6-9.4-16.4-15.1-27.6-15.1s-21.6 5.7-27.6 15.1l-6.1 9.5c-1.4 2.2-3.4 4.1-5.7 5.3L312 330.1c-18.1 10.1-25.5 32.4-17 51.3l5.5 12.4c8.6 19.2 30.7 28.5 50.5 21.1l2.6-1c10-3.7 21.3-2.2 29.9 4.1l1.5 1.1c37.2-29.5 64.1-71.4 74.4-119.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm144.5 92.1c-2.1 8.6 3.1 17.3 11.6 19.4l32 8c8.6 2.1 17.3-3.1 19.4-11.6s-3.1-17.3-11.6-19.4l-32-8c-8.6-2.1-17.3 3.1-19.4 11.6zm92-20c-2.1 8.6 3.1 17.3 11.6 19.4s17.3-3.1 19.4-11.6l8-32c2.1-8.6-3.1-17.3-11.6-19.4s-17.3 3.1-19.4 11.6l-8 32zM343.2 113.7c-7.9-4-17.5-.7-21.5 7.2l-16 32c-4 7.9-.7 17.5 7.2 21.5s17.5 .7 21.5-7.2l16-32c4-7.9 .7-17.5-7.2-21.5z" /></svg><br />
+                            Russ tili
+                            <br />
+                            <div className="name">MikeAndrewDesigner</div>
+                        </div>
+                    </div>
+                    <div className="e-card playing">
+                        <div className="image" />
+                        <div className="wave5" />
+                        <div className="wave5" />
+                        <div className="wave5" />
+                        <div className="infotop">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="icon" viewBox="0 0 512 512"><path fill="#ffffff" d="M266.3 48.3L232.5 73.6c-5.4 4-8.5 10.4-8.5 17.1l0 9.1c0 6.8 5.5 12.3 12.3 12.3c2.4 0 4.8-.7 6.8-2.1l41.8-27.9c2-1.3 4.4-2.1 6.8-2.1l1 0c6.2 0 11.3 5.1 11.3 11.3c0 3-1.2 5.9-3.3 8l-19.9 19.9c-5.8 5.8-12.9 10.2-20.7 12.8l-26.5 8.8c-5.8 1.9-9.6 7.3-9.6 13.4c0 3.7-1.5 7.3-4.1 10l-17.9 17.9c-6.4 6.4-9.9 15-9.9 24l0 4.3c0 16.4 13.6 29.7 29.9 29.7c11 0 21.2-6.2 26.1-16l4-8.1c2.4-4.8 7.4-7.9 12.8-7.9c4.5 0 8.7 2.1 11.4 5.7l16.3 21.7c2.1 2.9 5.5 4.5 9.1 4.5c8.4 0 13.9-8.9 10.1-16.4l-1.1-2.3c-3.5-7 0-15.5 7.5-18l21.2-7.1c7.6-2.5 12.7-9.6 12.7-17.6c0-10.3 8.3-18.6 18.6-18.6l29.4 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-20.7 0c-7.2 0-14.2 2.9-19.3 8l-4.7 4.7c-2.1 2.1-3.3 5-3.3 8c0 6.2 5.1 11.3 11.3 11.3l11.3 0c6 0 11.8 2.4 16 6.6l6.5 6.5c1.8 1.8 2.8 4.3 2.8 6.8s-1 5-2.8 6.8l-7.5 7.5C386 262 384 266.9 384 272s2 10 5.7 13.7L408 304c10.2 10.2 24.1 16 38.6 16l7.3 0c6.5-20.2 10-41.7 10-64c0-111.4-87.6-202.4-197.7-207.7zm172 307.9c-3.7-2.6-8.2-4.1-13-4.1c-6 0-11.8-2.4-16-6.6L396 332c-7.7-7.7-18-12-28.9-12c-9.7 0-19.2-3.5-26.6-9.8L314 287.4c-11.6-9.9-26.4-15.4-41.7-15.4l-20.9 0c-12.6 0-25 3.7-35.5 10.7L188.5 301c-17.8 11.9-28.5 31.9-28.5 53.3l0 3.2c0 17 6.7 33.3 18.7 45.3l16 16c8.5 8.5 20 13.3 32 13.3l21.3 0c13.3 0 24 10.7 24 24c0 2.5 .4 5 1.1 7.3c71.3-5.8 132.5-47.6 165.2-107.2zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM187.3 100.7c-6.2-6.2-16.4-6.2-22.6 0l-32 32c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l32-32c6.2-6.2 6.2-16.4 0-22.6z" /></svg><br />
+                            Nemis tili
+                            <br />
+                            <div className="name">MikeAndrewDesigner</div>
+                        </div>
+                    </div>
+                    <div className="e-card playing">
+                        <div className="image" />
+                        <div className="wave6" />
+                        <div className="wave6" />
+                        <div className="wave6" />
+                        <div className="infotop">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="icon" viewBox="0 0 640 512"><path fill="#ffffff" d="M64 96c0-35.3 28.7-64 64-64l384 0c35.3 0 64 28.7 64 64l0 256-64 0 0-256L128 96l0 256-64 0L64 96zM0 403.2C0 392.6 8.6 384 19.2 384l601.6 0c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8L76.8 480C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z" /></svg><br />
+                            Front-end
+                            <br />
+                            <div className="name">MikeAndrewDesigner</div>
+                        </div>
+                    </div>
+                    <div className="e-card playing">
+                        <div className="image" />
+                        <div className="wave7" />
+                        <div className="wave7" />
+                        <div className="wave7" />
+                        <div className="infotop">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="icon" viewBox="0 0 640 512"><path fill="#ffffff" d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z" /></svg><br />
+                            Back-end
+                            <br />
+                            <div className="name">MikeAndrewDesigner</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
