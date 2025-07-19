@@ -13,15 +13,15 @@ const Creators = () => {
                     <img src="IMG_20250414_112944_658 (3).jpg" alt="Michael Carter" className="team-image" />
                     <div className="team-info">
                         <h3>Fayziyev Muhammad</h3>
-                        <p className='team-p'>Front-end dasturchi 2 yillik tajribaga ega hozirda Programming School o'quv markazida uqituvchi </p>
+                        <p className='team-p'></p>
                     </div>
                 </div>
 
                 <div className="team-card">
                     <img src="/" alt="Ismoil" className="team-image" />
                     <div className="team-info">
-                        <h3>Ismoilhon Olimov</h3>
-                        <p>Hozirda Botli buyicha 10 yillik tajribaga ega</p>
+                        <h3>Ismoil Olimov</h3>
+                        <p></p>
                     </div>
                 </div>
             </div>
